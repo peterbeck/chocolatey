@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+    <metadata>
+        <id>kopano-deskapp-nightly</id>
+        <version>1.3.18</version>
+        <title>Kopano DeskApp</title>
+        <authors>Kopano</authors>
+        <owners>foo.li systeme + software</owners>
+        <licenseUrl>https://www.gnu.org/licenses/gpl.txt</licenseUrl>
+        <projectUrl>https://download.kopano.io/community/deskapp:/Windows/</projectUrl>
+        <iconUrl>https://raw.githubusercontent.com/peterbeck/chocolatey/master/icons/kopano-deskapp.png</iconUrl>
+        <requireLicenseAcceptance>true</requireLicenseAcceptance>
+        <description>From collaboration and sharing with Files or Web Meetings to the standard groupware tools; WebApp has a lot of great features to offer. Making the best use of these features would be even easier if it could be integrated with your day-to-day office applications. This is where DeskApp comes in.
+
+DeskApp is designed to be the bridge between WebApp and the desktop. DeskApp adds features a web application in a browser can’t, such as being set as the default email client, integrate with the file system to send any file as an attachment. Or even with the operating system so you can send emails from any office application.</description>
+        <summary>Kopano DeskApp</summary>
+        <releaseNotes>initial package</releaseNotes>
+        <copyright>2017 Kopano</copyright>
+        <language />
+        <tags>groupware kopano deskapp nightly</tags>
+        <dependencies>
+            <dependency id="vcredist2015" version="14.0.24215.20170201" />
+        </dependencies>
+    </metadata>
+</package>
