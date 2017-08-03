@@ -26,14 +26,6 @@ try {
         "No need to download and install again. Otherwise uninstall first."
         )
     } else {
-        #check for outlook
-        #https://www.reddit.com/r/PowerShell/comments/47lhdt/simple_script_to_check_if_outlook_is_installed/
-        #if (Get-ItemProperty HKLM:\SOFTWARE\Classes\Outlook.Application -ErrorAction SilentlyContinue) {
-        #    Write-Output "Outlook found"
-        #} else {
-        #    Write-Output "Outlook could not be found"
-        #    throw $_.Exception
-        #}
         if (get-wmiobject Win32_Product |where {$_.Name -like "*Outlook*" -and $_.Version -ge "15"}) {
             Write-Output "Outlook 2013 (or higher) seems to be present"
             Install-ChocolateyPackage $packageName $installerType $silentArgs $url $url64 `

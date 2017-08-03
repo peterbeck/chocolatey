@@ -1,5 +1,6 @@
 # Kopano ADS (mmc extension)
 # 2017 foo.li systeme + software
+# https://www.gnu.org/licenses/gpl.txt
 
 $packageName    = 'kopano-ads-nightly'
 $packageSearch  = 'Kopano ADS'
@@ -13,7 +14,6 @@ $checksum       = '306C64A745CC796F38A28DC8E367EB28E90B5CC0'
 $checksumType   = 'sha1'
 $checksum64     = $checksum
 $checksumType64 = $checksumType
-
 
 try {
   $app = Get-ItemProperty -Path @('HKLM:\Software\Wow6432Node\Microsoft\Windows\CurrentVersion\Uninstall\*',

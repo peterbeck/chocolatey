@@ -14,7 +14,6 @@ $checksumType   = 'sha1'
 $checksum64     = 'C36DDEE5B6A83490921584F8B9BD7D0866752BED'
 $checksumType64 = $checksumType
 
-
 try {   
     $app = Get-ItemProperty -Path @('HKLM:\Software\Wow6432Node\Microsoft\Windows\CurrentVersion\Uninstall\*',
                                     'HKLM:\Software\Microsoft\Windows\CurrentVersion\Uninstall\*') `
