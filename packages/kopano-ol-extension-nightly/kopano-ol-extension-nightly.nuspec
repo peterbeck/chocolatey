@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
     <metadata>
         <id>kopano-ol-extension-nightly</id>
-        <version>1.5.214</version>
+        <version>1.5.218</version>
         <title>Kopano Outlook Extension</title>
         <authors>Kopano</authors>
         <owners>foo.li systeme + software</owners>
