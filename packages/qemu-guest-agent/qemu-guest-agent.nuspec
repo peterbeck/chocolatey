@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+    <metadata>
+        <id>qemu-guest-agent</id>
+        <version>7.4.5</version>
+        <title>QEMU guest agent</title>
+        <authors>Red Hat</authors>
+        <owners>foo.li systeme + software</owners>
+	<licenseUrl>https://www.gnu.org/licenses/old-licenses/gpl-2.0.en.html</licenseUrl>
+	<projectUrl>https://fedoraproject.org/wiki/Windows_Virtio_Drivers</projectUrl>
+        <iconUrl>https://raw.githubusercontent.com/peterbeck/chocolatey/master/icons/kvm.png</iconUrl>
+        <requireLicenseAcceptance>true</requireLicenseAcceptance>
+        <description>It is a daemon program running inside the domain which is supposed to help management applications with executing functions which need assistance of the guest OS. For example, freezing and thawing filesystems, entering suspend. However, guest agent (GA) is not bullet proof, and hostile guest OS can send spurious replies.</description>
+        <summary>QEMU Guest Agent</summary>
+        <releaseNotes>initial package</releaseNotes>
+        <tags>virtualisation kvm qemu guest-agent</tags>
+    </metadata>
+</package>
