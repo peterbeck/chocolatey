@@ -14,5 +14,8 @@
         <summary>QEMU Guest Agent</summary>
         <releaseNotes>initial package</releaseNotes>
         <tags>virtualisation kvm qemu guest-agent</tags>
+	<dependencies>
+	  <dependency id="kvm-virtio-drivers" version="0.1.126" />
+	</dependencies>
     </metadata>
 </package>
