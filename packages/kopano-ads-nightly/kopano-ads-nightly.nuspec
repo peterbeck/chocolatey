@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
     <metadata>
         <id>kopano-ads-nightly</id>
-        <version>1.0.71</version>
+        <version>1.1.75</version>
         <title>Kopano ADS</title>
         <authors>Kopano</authors>
         <owners>foo.li systeme + software</owners>
@@ -12,10 +12,10 @@
         <requireLicenseAcceptance>true</requireLicenseAcceptance>
 	<description>Kopano AD Extension provides the ability to manage Kopano objects directly from the native “Active Directory Users and Computers” MMC-based management utility, which most administrators are used to with managing objects in Active Directory.</description>
         <summary>Kopano ADS</summary>
-        <releaseNotes>initial package</releaseNotes>
+        <releaseNotes>release 1.1.75</releaseNotes>
         <copyright>2017 Kopano</copyright>
         <language />
-        <tags>groupware kopano ads mmc nightly</tags>
+        <tags>groupware kopano ads mmc nightly admin</tags>
         <dependencies>
             <dependency id="RSAT" version="1.0.7" />
         </dependencies>
