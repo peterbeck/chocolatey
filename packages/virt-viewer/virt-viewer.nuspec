@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+    <metadata>
+        <id>virt-viewer</id>
+        <version>6.0.256</version>
+        <title>Virt Viewer</title>
+        <authors>RedHat</authors>
+        <owners>foo.li systeme + software</owners>
+        <licenseUrl>http://www.gnu.org/licenses/gpl-3.0.de.html</licenseUrl>
+        <projectUrl>https://virt-manager.org/download/</projectUrl>
+        <iconUrl>https://raw.githubusercontent.com/peterbeck/chocolatey/master/icons/kvm.png</iconUrl>
+        <requireLicenseAcceptance>true</requireLicenseAcceptance>
+        <description>KVM Virt Viewer</description>
+        <summary>KVM Virt Viewer</summary>
+        <releaseNotes>upgrade to 6.0</releaseNotes>
+        <tags>virtualisation management gui kvm</tags>
+    </metadata>
+</package>
