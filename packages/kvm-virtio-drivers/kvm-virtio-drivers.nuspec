@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+    <metadata>
+        <id>kvm-virtio-drivers</id>
+        <version>0.1.141</version>
+        <title>KVM Virtio Drivers for Windows</title>
+        <authors>Red Hat</authors>
+        <owners>foo.li systeme + software</owners>
+	<licenseUrl>https://www.gnu.org/licenses/old-licenses/gpl-2.0.en.html</licenseUrl>
+	<projectUrl>https://fedoraproject.org/wiki/Windows_Virtio_Drivers</projectUrl>
+        <iconUrl>https://raw.githubusercontent.com/peterbeck/chocolatey/master/icons/kvm.png</iconUrl>
+        <requireLicenseAcceptance>true</requireLicenseAcceptance>
+	<description>virtio drivers for Windows virtual machines running on KVM, and additional software agents for Windows VMs.
+	  This package will download the latest stable drivers, unzip them and tries automatically to update/install needed drivers.
+	  Note: for the QEMU guest agent there is a separate package available (which already uses this package as dependency).</description>
+        <summary>KVM Virtio Drivers</summary>
+        <releaseNotes>upgrade to 0.1.141</releaseNotes>
+        <tags>virtualisation kvm virtio guest-agents drivers</tags>
+    </metadata>
+</package>
