@@ -9,9 +9,9 @@ $silentArgs     = '/qb'
 $version        = '1.4.4'
 $url            = 'https://download.kopano.io/community/deskapp:/Windows/kopano-deskapp-' + $version + '-x86.msi'
 $url64          = 'https://download.kopano.io/community/deskapp:/Windows/kopano-deskapp-' + $version + '-x64.msi'
-$checksum       = '6C65507470C2113A0E8B925DECE2046696AFD797'
+$checksum       = '5BFB6094486AF1E8C24FF53A57A2ADE8524395B5'
 $checksumType   = 'sha1'
-$checksum64     = 'B7356125768C2AC699913EEF5A4919684F6AA912'
+$checksum64     = '0C350AACF9B8C9E2D1CDF7CB2FEB6977DCB59C5D'
 $checksumType64 = $checksumType
 
 try {   
