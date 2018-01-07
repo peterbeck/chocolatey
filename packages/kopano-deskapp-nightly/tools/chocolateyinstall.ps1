@@ -1,17 +1,17 @@
 # Kopano DeskApp
-# 2017 foo.li systeme + software
+# 2017-2018 foo.li systeme + software
 # https://www.gnu.org/licenses/gpl.txt
 
 $packageName    = 'kopano-deskapp-nightly'
 $packageSearch  = 'Kopano DeskApp'
 $installerType  = 'msi'
 $silentArgs     = '/qb'
-$version        = '1.4.4'
+$version        = '1.4.20'
 $url            = 'https://download.kopano.io/community/deskapp:/Windows/kopano-deskapp-' + $version + '-x86.msi'
 $url64          = 'https://download.kopano.io/community/deskapp:/Windows/kopano-deskapp-' + $version + '-x64.msi'
-$checksum       = '5BFB6094486AF1E8C24FF53A57A2ADE8524395B5'
+$checksum       = '6fd83f46073e05339f30c5650267c6cade84370e'
 $checksumType   = 'sha1'
-$checksum64     = '0C350AACF9B8C9E2D1CDF7CB2FEB6977DCB59C5D'
+$checksum64     = '9d06ac9abe318108fa17911cb5d8b1c4339d92f0'
 $checksumType64 = $checksumType
 
 try {   

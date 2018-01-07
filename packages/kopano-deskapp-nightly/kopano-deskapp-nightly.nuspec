@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
     <metadata>
         <id>kopano-deskapp-nightly</id>
-        <version>1.4.4</version>
+        <version>1.4.20</version>
         <title>Kopano DeskApp</title>
         <authors>Kopano</authors>
         <owners>foo.li systeme + software</owners>
@@ -14,8 +14,8 @@
 
 DeskApp is designed to be the bridge between WebApp and the desktop. DeskApp adds features a web application in a browser can’t, such as being set as the default email client, integrate with the file system to send any file as an attachment. Or even with the operating system so you can send emails from any office application.</description>
         <summary>Kopano DeskApp</summary>
-        <releaseNotes>release 1.4.4</releaseNotes>
-        <copyright>2017 Kopano</copyright>
+        <releaseNotes>release 1.4.20</releaseNotes>
+        <copyright>2018 Kopano</copyright>
         <language />
         <tags>groupware kopano deskapp nightly admin</tags>
         <dependencies>
