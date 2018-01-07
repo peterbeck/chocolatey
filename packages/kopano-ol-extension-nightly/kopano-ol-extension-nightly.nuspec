@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
     <metadata>
         <id>kopano-ol-extension-nightly</id>
-        <version>1.6.246</version>
+        <version>1.6.255</version>
         <title>Kopano Outlook Extension</title>
         <authors>Kopano</authors>
         <owners>foo.li systeme + software</owners>
@@ -12,7 +12,7 @@
         <requireLicenseAcceptance>true</requireLicenseAcceptance>
         <description>Kopano Outlook Extension (nightly)</description>
         <summary>Kopano OL Extension Nightly (unsupported)</summary>
-        <releaseNotes>upgrade to 1.6.246 (08-11-2017)</releaseNotes>
+        <releaseNotes>upgrade to 1.6.255 (07-12-2017)</releaseNotes>
         <copyright>2017 Kopano</copyright>
         <language />
         <tags>groupware kopano outlook-extension nightly</tags>
