@@ -1,18 +1,18 @@
 # Kopano Outlook Extension
-# 2017 foo.li systeme + software
+# 2017-2018 foo.li systeme + software
 # https://www.gnu.org/licenses/gpl.txt
 
 $packageName    = 'kopano-ol-extension-nightly'
 $packageSearch  = 'Kopano OL Extension'
 $installerType  = 'msi'
 $silentArgs     = '/qb'
-$version        = '1.6.255'
-$intvers        = '1.6-255'
+$version        = '1.6.277'
+$intvers        = '1.6-277'
 $url            = 'https://download.kopano.io/community/olextension:/KopanoOLExtension-' + $intvers + '-32bit.msi'
 $url64          = 'https://download.kopano.io/community/olextension:/KopanoOLExtension-' + $intvers + '-64bit.msi'
-$checksum       = '6f970ab5a5f26e786379426be8392a8b43c406ed'
+$checksum       = '80505b54df6c518673d270bd3f2bed9ff36cc216'
 $checksumType   = 'sha1'
-$checksum64     = 'e311da9c922c6af5ebf9763b94788499ee66e7e9'
+$checksum64     = '73ecf61faba9df21ced8e0035a5e83c985217f93'
 $checksumType64 = $checksumType
 
 try {   
