@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+    <metadata>
+        <id>openboard</id>
+        <version>1.3.6</version>
+        <title>OpenBoard</title>
+        <authors>Open Education Foundation</authors>
+        <owners>foo.li systeme + software</owners>
+        <licenseUrl>https://github.com/OpenBoard-org/OpenBoard/blob/master/LICENSE</licenseUrl>
+        <projectUrl>http://openboard.ch/index.en.html/</projectUrl>
+        <iconUrl>https://raw.githubusercontent.com/peterbeck/chocolatey/master/icons/openboard.png</iconUrl>
+        <requireLicenseAcceptance>true</requireLicenseAcceptance>
+        <description>Interactive whiteboard for schools and universities</description>
+        <summary>OpenBoard Whiteboard</summary>
+        <releaseNotes>release 1.5.2</releaseNotes>
+        <copyright>OpenBoard.org</copyright>
+        <language />
+        <tags>whiteboard admin</tags>
+    </metadata>
+</package>
