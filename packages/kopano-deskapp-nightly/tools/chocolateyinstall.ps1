@@ -6,12 +6,12 @@ $packageName    = 'kopano-deskapp-nightly'
 $packageSearch  = 'Kopano DeskApp'
 $installerType  = 'msi'
 $silentArgs     = '/qb'
-$version        = '1.5.2'
+$version        = '1.6.2'
 $url            = 'https://download.kopano.io/community/deskapp:/Windows/kopano-deskapp-' + $version + '-x86.msi'
 $url64          = 'https://download.kopano.io/community/deskapp:/Windows/kopano-deskapp-' + $version + '-x64.msi'
-$checksum       = '375c6d1c1e6367fb6ba70f1da448f5fc3d68420e'
+$checksum       = 'BAFAA0AE90D1EA1B790D30E7DA9859CB19E4B262'
 $checksumType   = 'sha1'
-$checksum64     = '5a5d725bc4edcd235ba6c29fdf2aad9e657b7cff'
+$checksum64     = '7B687E0A4F32486C6A678F8BF4616003E068CE66'
 $checksumType64 = $checksumType
 
 try {   
