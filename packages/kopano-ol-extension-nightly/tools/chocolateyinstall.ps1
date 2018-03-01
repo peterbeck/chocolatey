@@ -6,13 +6,13 @@ $packageName    = 'kopano-ol-extension-nightly'
 $packageSearch  = 'Kopano OL Extension'
 $installerType  = 'msi'
 $silentArgs     = '/qb'
-$version        = '2.0.286'
-$intvers        = '2.0-286'
+$version        = '2.0.287'
+$intvers        = '2.0-287'
 $url            = 'https://download.kopano.io/community/olextension:/KopanoOLExtension-' + $intvers + '-32bit.msi'
 $url64          = 'https://download.kopano.io/community/olextension:/KopanoOLExtension-' + $intvers + '-64bit.msi'
-$checksum       = '19254F6A67B955D173E05225D9994F1E7B4D5B02'
+$checksum       = 'FE44CC3308F18BC7D14E8ED93823676C9D6FC019'
 $checksumType   = 'sha1'
-$checksum64     = '313BCF33249BC2972AEDB3B28762DE5E06EE9324'
+$checksum64     = '8D967CC3EFFFC8207CC054BC5C1E70A071A44E2A'
 $checksumType64 = $checksumType
 
 try {   
