@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+    <metadata>
+        <id>Cantata</id>
+        <version>2.2.0</version>
+        <title>Cantata</title>
+        <authors>Craig Drummond</authors>
+        <owners>foo.li systeme + software</owners>
+        <licenseUrl>https://github.com/CDrummond/cantata/blob/master/LICENSE</licenseUrl>
+		<projectUrl>https://github.com/CDrummond/cantata</projectUrl>
+        <iconUrl>https://raw.githubusercontent.com/peterbeck/chocolatey/master/icons/cantata.png</iconUrl>
+        <requireLicenseAcceptance>true</requireLicenseAcceptance>
+		<description>Cantata is a Qt5 Graphical MPD Client for Linux, Windows, macOS, Haiku</description>
+        <summary>A graphical (Qt5) client for MPD</summary>
+        <releaseNotes>https://github.com/CDrummond/cantata/releases/tag/v2.2.0</releaseNotes>
+        <copyright>2017 Kopano</copyright>
+        <language />
+        <tags>cantata music audio mp3 floss cross-platform ogg player admin</tags>
+    </metadata>
+</package>
