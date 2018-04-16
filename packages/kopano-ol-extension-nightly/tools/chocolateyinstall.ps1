@@ -6,16 +6,16 @@ $packageName    = 'kopano-ol-extension-nightly'
 $packageSearch  = 'Kopano OL Extension'
 $installerType  = 'msi'
 $silentArgs     = '/qb'
-$version        = '2.0.289'
-$intvers        = '2.0-289'
+$version        = '2.0.292'
+$intvers        = '2.0-292'
 $url            = 'https://download.kopano.io/community/olextension:/KopanoOLExtension-' + $intvers + '-32bit.msi'
 $url64          = 'https://download.kopano.io/community/olextension:/KopanoOLExtension-' + $intvers + '-64bit.msi'
-$checksum       = 'DF64E56E73852BAA7F3A72637E535D7B66022A0A'
+$checksum       = '6E5F240EC5EA639E43119DD88240CE5D916E900C'
 $checksumType   = 'sha1'
-$checksum64     = 'B2E7CF1353BBA61891ECE9D0BA26DDDABD05EB28'
+$checksum64     = '7886889FC63C7A9A9762FD570B305D0FABB012D6'
 $checksumType64 = $checksumType
 
-try {   
+try {
     $app = Get-ItemProperty -Path @('HKLM:\Software\Wow6432Node\Microsoft\Windows\CurrentVersion\Uninstall\*',
                                     'HKLM:\Software\Microsoft\Windows\CurrentVersion\Uninstall\*') `
             -ErrorAction:SilentlyContinue | Where-Object { $_.DisplayName -like $packageSearch }
