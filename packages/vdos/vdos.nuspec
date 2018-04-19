@@ -8,7 +8,7 @@
         <owners>foo.li systeme + software</owners>
         <licenseUrl>https://sourceforge.net/projects/vdos/</licenseUrl>
         <projectUrl>https://sourceforge.net/projects/vdos/</projectUrl>
-        <iconUrl>https://raw.githubusercontent.com/peterbeck/chocolatey/master/icons/kvm.png</iconUrl>
+        <iconUrl>https://raw.githubusercontent.com/peterbeck/chocolatey/master/icons/vdos.png</iconUrl>
         <requireLicenseAcceptance>true</requireLicenseAcceptance>
         <description>KVM Virt Viewer</description>
         <summary>Windows 64-bit doesn’t support DOS applications. Windows 32-bit included NTVDM, 
