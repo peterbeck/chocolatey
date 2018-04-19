@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+    <metadata>
+        <id>vdos</id>
+        <version>2017.08.01</version>
+        <title>vDOS</title>
+        <authors>Jos Schaars</authors>
+        <owners>foo.li systeme + software</owners>
+        <licenseUrl>https://sourceforge.net/projects/vdos/</licenseUrl>
+        <projectUrl>https://sourceforge.net/projects/vdos/</projectUrl>
+        <iconUrl>https://raw.githubusercontent.com/peterbeck/chocolatey/master/icons/kvm.png</iconUrl>
+        <requireLicenseAcceptance>true</requireLicenseAcceptance>
+        <description>KVM Virt Viewer</description>
+        <summary>Windows 64-bit doesn’t support DOS applications. Windows 32-bit included NTVDM, 
+		to some extend facilitating DOS programs to run. PC’s now come with Windows 10 64-bit installed, 
+		mostly without an option to downgrade to Windows 32-bit. vDOS takes care of this limitation.
+		</summary>
+        <releaseNotes>initial packaging</releaseNotes>
+        <tags>dos vdos windows10x64</tags>
+    </metadata>
+</package>
