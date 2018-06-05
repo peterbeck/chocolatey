@@ -8,7 +8,7 @@
         <owners>foo.li systeme + software</owners>
 	<licenseUrl>https://www.gnu.org/licenses/old-licenses/gpl-2.0.en.html</licenseUrl>
 	<projectUrl>https://fedoraproject.org/wiki/Windows_Virtio_Drivers</projectUrl>
-        <iconUrl>https://raw.githubusercontent.com/peterbeck/chocolatey/master/icons/kvm.png</iconUrl>
+        <iconUrl>https://git.foo.li/peter/chocolatey/raw/branch/master/icons/kvm.png</iconUrl>
         <requireLicenseAcceptance>true</requireLicenseAcceptance>
 	<description>virtio drivers for Windows virtual machines running on KVM, and additional software agents for Windows VMs.
 	  This package will download the latest stable drivers, unzip them and tries automatically to update/install needed drivers.

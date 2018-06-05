@@ -7,10 +7,10 @@
         <authors>Craig Drummond</authors>
         <owners>foo.li systeme + software</owners>
         <licenseUrl>https://github.com/CDrummond/cantata/blob/master/LICENSE</licenseUrl>
-		<projectUrl>https://github.com/CDrummond/cantata</projectUrl>
-        <iconUrl>https://raw.githubusercontent.com/peterbeck/chocolatey/master/icons/cantata.png</iconUrl>
+	<projectUrl>https://github.com/CDrummond/cantata</projectUrl>
+        <iconUrl>https://git.foo.li/peter/chocolatey/raw/branch/master/icons/cantata.png</iconUrl>
         <requireLicenseAcceptance>true</requireLicenseAcceptance>
-		<description>Cantata is a Qt5 Graphical MPD Client for Linux, Windows, macOS, Haiku</description>
+	<description>Cantata is a Qt5 Graphical MPD Client for Linux, Windows, macOS, Haiku</description>
         <summary>A graphical (Qt5) client for MPD</summary>
         <releaseNotes>https://github.com/CDrummond/cantata/releases/tag/v2.3.0</releaseNotes>
         <copyright>2017 Kopano</copyright>
