@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
     <metadata>
         <id>openboard</id>
-        <version>1.3.6</version>
+        <version>1.4.0</version>
         <title>OpenBoard</title>
         <authors>Open Education Foundation</authors>
         <owners>foo.li systeme + software</owners>
@@ -12,7 +12,7 @@
         <requireLicenseAcceptance>true</requireLicenseAcceptance>
         <description>Interactive whiteboard for schools and universities</description>
         <summary>OpenBoard Whiteboard</summary>
-        <releaseNotes>release 1.5.2</releaseNotes>
+        <releaseNotes>https://github.com/OpenBoard-org/OpenBoard/releases/tag/v1.4.0</releaseNotes>
         <copyright>OpenBoard.org</copyright>
         <language />
         <tags>whiteboard admin</tags>
